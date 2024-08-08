@@ -1,9 +1,5 @@
 let listaDeNumerosSorteados = [];
-<<<<<<< HEAD
 let numeroLimite = 69;
-=======
-let numeroLimite = 55;
->>>>>>> ed32d95f24568681fbca01ead5b57e122adf8030
 let numeroSecreto = gerarNumeroAleatorio();
 let tentativas = 1;
 
@@ -15,11 +11,7 @@ function exibirTextoNaTela(tag, texto) {
 
 function exibirMensagemInicial() {
     exibirTextoNaTela('h1', 'Jogo do número secreto');
-<<<<<<< HEAD
     exibirTextoNaTela('p', 'Escolha um número entre 1 e 69');
-=======
-    exibirTextoNaTela('p', 'Escolha um número entre 1 e 55');
->>>>>>> ed32d95f24568681fbca01ead5b57e122adf8030
 }
 
 exibirMensagemInicial();
